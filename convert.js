@@ -7,7 +7,7 @@ const rl = readline.createInterface({
     output: process.stdout
 })
 
-const apikey = '79e25afb74229d1d8e301e93'
+const apikey = 'API_KEY_FROM_ENV'
 const url = `https://v6.exchangerate-api.com/v6/79e25afb74229d1d8e301e93/latest/USD`
 
 const convertCurrency = (amount,rate)=>{
